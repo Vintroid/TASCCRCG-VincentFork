@@ -1294,8 +1294,8 @@ MonoBehaviour:
   pawnDown: {fileID: 6844820334377948841, guid: 3830cfde7122047cbb0ec9039e6e955d, type: 3}
   wrenchWave: {fileID: 467110894}
   gearWave: {fileID: 467110897}
-  wrenchgear: {fileID: 467110898}
-  bigGear: {fileID: 467110899}
+  wrenchGearWave: {fileID: 467110898}
+  bigGearWave: {fileID: 467110899}
 --- !u!4 &467110896
 Transform:
   m_ObjectHideFlags: 0
@@ -1524,7 +1524,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 49a6a093bbd6f8044a593bc9d5554326, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0fd36367e212be94dbb1f2bbec81200d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

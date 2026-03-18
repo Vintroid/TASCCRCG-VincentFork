@@ -31,8 +31,8 @@ public class GameManager : MonoBehaviour
     // Wave Types
     [SerializeField] WrenchWave wrenchWave;
     [SerializeField] GearWave gearWave;
-    [SerializeField] WrenchGearWave wrenchgear;
-    [SerializeField] BigGearWave bigGear;
+    [SerializeField] WrenchGearWave wrenchGearWave;
+    [SerializeField] BigGearWave bigGearWave;
 
 
     // Update is called once per frame
@@ -64,12 +64,12 @@ public class GameManager : MonoBehaviour
                     break;
 
                 case "wrenchgear":
-                    wrenchgear.Wave();
+                    wrenchGearWave.Wave();
                     playerManager.Wave(waveCounter);
                     break;
 
                 case "biggear":
-                    bigGear.Wave();
+                    bigGearWave.Wave();
                     playerManager.Wave(waveCounter);
                     break;
 
