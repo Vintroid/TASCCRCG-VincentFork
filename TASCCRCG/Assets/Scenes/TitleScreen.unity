@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 637299667}
   - component: {fileID: 637299666}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Fade Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -796,7 +796,6 @@ GameObject:
   - component: {fileID: 909012682}
   - component: {fileID: 909012684}
   - component: {fileID: 909012683}
-  - component: {fileID: 909012685}
   - component: {fileID: 909012686}
   - component: {fileID: 909012687}
   m_Layer: 5
@@ -865,29 +864,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909012681}
   m_CullTransparentMesh: 1
---- !u!114 &909012685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909012681}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36b45cc784eb340d291ba7e879ff20e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Girl: {fileID: 0}
-  Boy: {fileID: 0}
-  fade: {fileID: 0}
-  MainTitle: {fileID: 0}
-  AndKenTitle: {fileID: 0}
-  PressStart: {fileID: 0}
-  fade2: {fileID: 0}
-  singleplayerButton: {fileID: 1589963911}
-  multiplayerButton: {fileID: 909012681}
-  kenSound: {fileID: 0}
-  textSound: {fileID: 0}
 --- !u!95 &909012686
 Animator:
   serializedVersion: 5
@@ -896,7 +872,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909012681}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 31a68f236ed0eb14a8313574690b2685, type: 2}
   m_CullingMode: 0
@@ -1392,7 +1368,7 @@ GameObject:
   - component: {fileID: 1440892991}
   - component: {fileID: 1440892990}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Fade2 Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1722,15 +1698,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.0027002702
-    y: 0.002
-    width: 0.9936994
-    height: 0.99600005
+    x: 0.0021978023
+    y: 0.001953125
+    width: 0.99560446
+    height: 0.99609375
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.1875
+  orthographic size: 5.3125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
